@@ -1,0 +1,22 @@
+# Blender MTL File: mesada.blend
+# Material Count: 2
+newmtl silver01
+Ns 96.0
+Ka 0.0 0.0 0.0
+Kd 0.442353 0.417255 0.395294
+Ks 0.5 0.470588 0.445098
+Ni 1.0
+d 1.0
+illum 2
+
+
+newmtl black_matte01
+Ns 96.0
+Ka 0.0 0.0 0.0
+Kd 0.247843 0.247843 0.247843
+Ks 0.5 0.5 0.5
+Ni 1.0
+d 1.0
+illum 2
+
+

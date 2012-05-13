@@ -1,0 +1,83 @@
+# Blender MTL File: mesada.blend
+# Material Count: 8
+newmtl GREEN_PLASTIC
+Ns 96.0
+Ka 0.0 0.0 0.0
+Kd 0.665098 0.67451 0.668235
+Ks 0.456863 0.456863 0.456863
+Ni 1.0
+d 1.0
+illum 2
+
+
+newmtl ORANGE_PLASTIC
+Ns 96.0
+Ka 0.0 0.0 0.0
+Kd 0.633726 0.254118 0.0
+Ks 0.456863 0.456863 0.456863
+Ni 1.0
+d 1.0
+illum 2
+
+
+newmtl WHITE_PLASTIC
+Ns 96.0
+Ka 0.0 0.0 0.0
+Kd 0.586667 0.586667 0.586667
+Ks 0.366667 0.366667 0.366667
+Ni 1.0
+d 1.0
+illum 2
+
+
+newmtl TAIL_GATE
+Ns 96.0
+Ka 0.0 0.0 0.0
+Kd 0.633726 0.254118 0.0
+Ks 0.456863 0.456863 0.456863
+Ni 1.0
+d 1.0
+illum 2
+map_Kd Untitled
+
+
+newmtl Material_#603
+Ns 96.0
+Ka 0.0 0.0 0.0
+Kd 0.288627 0.796863 0.310588
+Ks 0.44902 0.44902 0.44902
+Ni 1.0
+d 1.0
+illum 2
+
+
+newmtl RED_PLASTIC
+Ns 96.0
+Ka 0.0 0.0 0.0
+Kd 0.8 0.018824 0.0
+Ks 0.456863 0.456863 0.456863
+Ni 1.0
+d 1.0
+illum 2
+
+
+newmtl BLACK_PLASTIC
+Ns 96.0
+Ka 0.0 0.0 0.0
+Kd 0.018824 0.018824 0.018824
+Ks 0.456863 0.456863 0.456863
+Ni 1.0
+d 1.0
+illum 2
+
+
+newmtl Material_#597
+Ns 96.0
+Ka 0.0 0.0 0.0
+Kd 0.564706 0.621176 0.705882
+Ks 0.44902 0.44902 0.44902
+Ni 1.0
+d 1.0
+illum 2
+
+

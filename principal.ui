@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Principal</class>
+ <widget class="QWidget" name="Principal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>843</width>
+    <height>675</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>574</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>1</width>
+    <height>1</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form1</string>
+  </property>
+  <layout class="QHBoxLayout">
+   <item>
+    <widget class="GLWidget" name="gLWidget1" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+       <horstretch>1</horstretch>
+       <verstretch>1</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>500</width>
+       <height>550</height>
+      </size>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>522</width>
+       <height>568</height>
+      </size>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>load model</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton2_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>reset cam</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="spacer1">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Expanding</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>340</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout">
+       <item>
+        <spacer name="spacer3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>60</width>
+           <height>31</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>75</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>&amp;Sortir</string>
+         </property>
+         <property name="shortcut">
+          <string>Alt+S</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>GLWidget</class>
+   <extends>QWidget</extends>
+   <header>glwidget.h</header>
+   <slots>
+    <slot>loadModel()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <includes>
+  <include location="local">glwidget.h</include>
+ </includes>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton1</sender>
+   <signal>clicked()</signal>
+   <receiver>Principal</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>741</x>
+     <y>544</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton2_2</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>resetCam()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>66</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton2</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>loadModel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>767</x>
+     <y>16</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>347</x>
+     <y>337</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

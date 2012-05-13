@@ -1,0 +1,242 @@
+<scene>
+	<objects>
+		<object file="casa1.obj" name="CASA1"></object>
+		<object file="casa2.obj" name="CASA2"></object>
+		<object file="casa3.obj" name="CASA3"></object>
+		<object file="obelisc.obj" name="OBELISC"></object>
+		<object name="GROUND" sx="50.0" sz="50.0"></object>
+	</objects>
+	<description>
+		
+		<objectref object="OBELISC">
+			<position x="15" y="0" z="10"></position>
+			<sizex>1</sizex>
+			<sizey>7</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+		</objectref>		
+		<objectref object="CASA1">
+			<position x="10" y="0" z="10"></position>
+			<sizex>4</sizex>
+			<sizey>2</sizey>
+			<sizez>2</sizez>
+			<orientation>0</orientation>
+		</objectref>			
+		<objectref object="CASA2">
+			<position x="16" y="0" z="10"></position>
+			<sizex>2</sizex>
+			<sizey>1</sizey>
+			<sizez>2</sizez>
+			<orientation>0</orientation>
+		</objectref>		
+		<objectref object="CASA3">
+			<position x="32" y="0" z="20"></position>
+			<sizex>2</sizex>
+			<sizey>3</sizey>
+			<sizez>4</sizez>
+			<orientation>90</orientation>
+		</objectref>		
+		
+		<objectref object="CASA3">
+			<position x="20" y="0" z="4"></position>
+			<sizex>2</sizex>
+			<sizey>3</sizey>
+			<sizez>4</sizez>
+			<orientation>270</orientation>
+		</objectref>				
+		<objectref object="CASA1">
+			<position x="36" y="0" z="44"></position>
+			<sizex>4</sizex>
+			<sizey>2</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>
+		<objectref object="CASA2">
+			<position x="40" y="0" z="24"></position>
+			<sizex>2</sizex>
+			<sizey>1</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>		
+	
+		<objectref object="CASA3">
+			<position x="40" y="0" z="6"></position>
+			<sizex>2</sizex>
+			<sizey>3</sizey>
+			<sizez>4</sizez>
+			<orientation>90</orientation>
+		</objectref>			
+		<objectref object="CASA1">
+			<position x="36" y="0" z="6"></position>
+			<sizex>4</sizex>
+			<sizey>2</sizey>
+			<sizez>2</sizez>
+			<orientation>0</orientation>
+		</objectref>
+		<objectref object="CASA2">
+			<position x="30" y="0" z="6"></position>
+			<sizex>2</sizex>
+			<sizey>1</sizey>
+			<sizez>2</sizez>
+			<orientation>0</orientation>
+		</objectref>		
+		
+		<objectref object="CASA3">
+			<position x="20" y="0" z="13"></position>
+			<sizex>2</sizex>
+			<sizey>3</sizey>
+			<sizez>4</sizez>
+			<orientation>270</orientation>
+		</objectref>				
+		<objectref object="CASA1">
+			<position x="16" y="0" z="33"></position>
+			<sizex>4</sizex>
+			<sizey>2</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>
+		<objectref object="CASA2">
+			<position x="30" y="0" z="43"></position>
+			<sizex>2</sizex>
+			<sizey>1</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>		
+	
+		<objectref object="CASA3">
+			<position x="40" y="0" z="25"></position>
+			<sizex>2</sizex>
+			<sizey>3</sizey>
+			<sizez>4</sizez>
+			<orientation>90</orientation>
+		</objectref>				
+		<objectref object="CASA1">
+			<position x="26" y="0" z="40"></position>
+			<sizex>4</sizex>
+			<sizey>2</sizey>
+			<sizez>2</sizez>
+			<orientation>0</orientation>
+		</objectref>
+		<objectref object="CASA2">
+			<position x="10" y="0" z="41"></position>
+			<sizex>2</sizex>
+			<sizey>1</sizey>
+			<sizez>2</sizez>
+			<orientation>0</orientation>
+		</objectref>	
+			
+		<objectref object="CASA1">
+			<position x="12" y="0" z="39"></position>
+			<sizex>4</sizex>
+			<sizey>2</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>			
+		<objectref object="CASA2">
+			<position x="36" y="0" z="39"></position>
+			<sizex>2</sizex>
+			<sizey>1</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>		
+		<objectref object="CASA3">
+			<position x="42" y="0" z="42"></position>
+			<sizex>2</sizex>
+			<sizey>3</sizey>
+			<sizez>4</sizez>
+			<orientation>270</orientation>
+		</objectref>					
+		
+
+
+
+		<objectref object="CASA1">
+			<position x="14" y="0" z="1"></position>
+			<sizex>4</sizex>
+			<sizey>2</sizey>
+			<sizez>2</sizez>
+			<orientation>0</orientation>
+		</objectref>			
+		<objectref object="CASA2">
+			<position x="30" y="0" z="1"></position>
+			<sizex>2</sizex>
+			<sizey>1</sizey>
+			<sizez>2</sizez>
+			<orientation>0</orientation>
+		</objectref>		
+		<objectref object="CASA3">
+			<position x="8" y="0" z="34"></position>
+			<sizex>2</sizex>
+			<sizey>3</sizey>
+			<sizez>4</sizez>
+			<orientation>90</orientation>
+		</objectref>		
+		
+		<objectref object="CASA3">
+			<position x="6" y="0" z="44"></position>
+			<sizex>2</sizex>
+			<sizey>3</sizey>
+			<sizez>4</sizez>
+			<orientation>270</orientation>
+		</objectref>				
+		<objectref object="CASA1">
+			<position x="20" y="0" z="42"></position>
+			<sizex>4</sizex>
+			<sizey>2</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>
+		<objectref object="CASA2">
+			<position x="14" y="0" z="34"></position>
+			<sizex>2</sizex>
+			<sizey>1</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>		
+	
+		
+		<objectref object="CASA3">
+			<position x="2" y="0" z="28"></position>
+			<sizex>2</sizex>
+			<sizey>3</sizey>
+			<sizez>4</sizez>
+			<orientation>270</orientation>
+		</objectref>			
+		<objectref object="CASA2">
+			<position x="10" y="0" z="28"></position>
+			<sizex>2</sizex>
+			<sizey>1</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>
+		<objectref object="CASA1">
+			<position x="16" y="0" z="28"></position>
+			<sizex>4</sizex>
+			<sizey>2</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>
+		<objectref object="CASA1">
+			<position x="24" y="0" z="28"></position>
+			<sizex>4</sizex>
+			<sizey>2</sizey>
+			<sizez>2</sizez>
+			<orientation>180</orientation>
+		</objectref>
+		<objectref object="OBELISC">
+			<position x="48" y="0" z="46"></position>
+			<sizex>1</sizex>
+			<sizey>7</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+		</objectref>	
+		<objectref object="OBELISC">
+			<position x="16" y="0" z="24"></position>
+			<sizex>1</sizex>
+			<sizey>7</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+		</objectref>	
+		
+	</description>
+</scene>
